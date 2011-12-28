@@ -1,0 +1,51 @@
+div.circle
+{
+    width       : 660px; /* 540 + 120 */
+    height      : 660px; /* 540 + 120 */
+    background  : #dcdfdf;
+    font-size   : 0.8em;
+    overflow    : hidden;
+    
+    position    : relative;
+    top         : 130px;
+    left        : 300px;
+}
+
+div.user
+{
+    width       : 100px;
+    height      : 100px;
+    margin      : 0px;
+    padding     : 10px;
+    background  : #fcffff;
+    font-size   : 0.8em;
+    overflow    : hidden;
+    
+    position    : absolute;
+}
+
+div.user div
+{
+    width       : 100px;
+    height      : 100px;
+    margin      : 0px 0px 10px 0px;
+    padding     : 0px;
+
+}
+
+div.user span
+{
+    width       : 80px;
+    padding     : 0px;
+    margin      : auto;
+    font-weight : bold;
+}
+
+div.user img
+{
+    width       : 100px;
+    height      : 80px;
+    margin      : 2px 0px;
+    border      : none;
+}
+
